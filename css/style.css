@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color:#B0ADAD;
+  color: #fff;
+}
+ul,ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Poppins',sarif;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0%;
+color: #B0ADAD;
+background-color: #212121;
+
+}
+
+.container {
+  min-width: 1220px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.site-top{
+    background-image: url('../images/header/bg-image\ 1.png');
+  background-repeat: no-repeat;  background-size: cover;
+  background-position: center;
+  padding-bottom: 208px;
+}
+
+.site-header{
+  padding-top: 18px;
+  padding-bottom: 209px;
+}
+
+.site-header-container {
+  min-width: 1263px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.logo img{
+  margin-right: 14px;
+}
+
+.logo:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.logo:active{
+  opacity: 0.6;
+}
+
+.sitenav {
+  display: flex;
+  align-items: center;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+  transition: all 0.6s ease;
+}
+
+.sitenav-item:hover{
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
+
+.sitenav-link {
+  font-family: "Poppins";
+font-weight: 600;
+font-size: 18px;
+color: #fff;
+    transition: all 0.6s ease;
+
+}
+
+.sitenav-link:hover{
+  color: #ff2f2f;
+}
+
+.sitenav-link:active{
+  opacity: 0.6;
+}
+
+/* hero start*/
+.hero-container {
+  max-width: 540px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  text-align: center;
+}
+.hero-title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.5;
+}
+.hero-text {
+font-weight: 600;
+font-size: 1.5;
+line-height: 100%;
+margin-bottom: 24px;
+}
+.socila {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-item:not(:last-child) {
+  margin-right: 24px;
+}
+.social-link {
+    width: 44px;
+  height: 44px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.8s ease;
+}
+.social-link:hover{
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+.social-link:active{
+  opacity: 0.6;
+  border-radius: 20px;
+}
+/* hero end*/
