@@ -154,7 +154,13 @@ body {
 	font-weight: 600;
 	font-size: 64px;
 	line-height: 1.5;
+	transition: all 0.8s ease;
 }
+
+.hero-title:hover{
+	transform: scale(1.1);
+}
+
 .hero-text {
 	font-weight: 600;
 	font-size: 1.5;
@@ -232,6 +238,7 @@ body {
 	color: #fff;
 	margin-bottom: 32px;
 }
+
 
 .about-me-text:not(:last-child) {
 	margin-bottom: 16px;
@@ -333,6 +340,8 @@ body {
 	color: #fff;
 }
 
+/* potfolio end */
+
 .main-footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -358,11 +367,36 @@ body {
 	color: #fff;
 	font-weight: 600;
 	font-size: 32px;
-	line-height: 100%;
+	line-height: 1.5;
 	letter-spacing: 0%;
 }
 
-.btn {
+
+/* footer start */
+.site-footer {
+	padding-top: 44px;
+	padding-bottom: 32px;
+	background-color: #292c36;
+	color:#fff
+
 }
 
-/* potfolio end */
+.site-footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.site-footer-link {
+	margin-bottom: 8px;
+	display: flex;
+}
+
+.site-footer-text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0%;
+}
+/* footer end */
